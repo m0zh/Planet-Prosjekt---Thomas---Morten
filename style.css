@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100svh;
+  height: 100svh;
+}
+
+.header-top {
+  background-color: grey;
+  background-image: url(./images/mars_2k.jpg);
+  width: 100svh;
+  height: 200px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(33, 33, 33);
+  color: white;
+}
