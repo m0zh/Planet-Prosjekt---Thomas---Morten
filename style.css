@@ -9,9 +9,30 @@ body {
   height: 100%;
 }
 
+.header-top h1,
+p {
+  color: red;
+}
+
+.header-top h1 {
+  font-size: 48px;
+}
+
 .header-top p {
   font-size: 10px;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.6em;
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: brown;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+  color: red;
 }
 
 .header-top {
