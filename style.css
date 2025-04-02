@@ -11,6 +11,7 @@ html {
 body {
   min-width: 100vw;
   min-height: 100vh;
+  background-color: black;
 }
 
 p {
@@ -38,7 +39,7 @@ header {
 a {
   text-decoration: none;
   list-style-type: none;
-  color: brown;
+  color: whitesmoke;
 }
 
 a:hover,
@@ -48,11 +49,11 @@ a:focus {
 }
 
 .header-top {
-  background-color: rgb(185, 185, 185);
+  background-color: rgb(49, 49, 49);
   background-image: url(./images/mars_2k.jpg);
   width: 100svw;
   height: 130px;
-  border: groove 5px rgb(21, 21, 21);
+  border: groove 10px rgb(21, 21, 21);
   background-size: cover;
   color: white;
   display: flex;
@@ -65,16 +66,22 @@ a:focus {
 .navbar {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: rgb(33, 33, 33);
   color: white;
-  height: 50px;
+  height: 30px;
+  padding: 0 300px;
 }
 section {
   text-align: center;
   width: 100vw;
-  background-color: rgb(143, 0, 0);
+  background-color: rgb(103, 0, 0);
+}
+
+section h1 {
+  font-size: 36px;
+  margin-bottom: 0.5em;
 }
 
 .sec-settings {
@@ -85,6 +92,8 @@ section {
   justify-content: center;
   align-items: center;
   padding: 10px 150px;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
 }
 
 #section1 {
@@ -120,7 +129,7 @@ section {
 #section9 {
   background-image: url(./images/Mars-rover.jpg);
 }
-#section10 {
+.section10 {
 }
 
 .bg-img {
