@@ -9,6 +9,11 @@ body {
   height: 100svh;
 }
 
+.header-top p {
+  font-size: 10px;
+  letter-spacing: 0.2em;
+}
+
 .header-top {
   background-color: grey;
   background-image: url(./images/mars_2k.jpg);
@@ -20,6 +25,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
+  padding-left: 100px;
 }
 
 .navbar {
@@ -29,4 +36,5 @@ body {
   align-items: center;
   background-color: rgb(33, 33, 33);
   color: white;
+  height: 50px;
 }
