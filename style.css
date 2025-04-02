@@ -5,8 +5,8 @@
 }
 
 body {
-  width: 100svh;
-  height: 100svh;
+  width: 100%;
+  height: 100%;
 }
 
 .header-top p {
@@ -17,7 +17,7 @@ body {
 .header-top {
   background-color: grey;
   background-image: url(./images/mars_2k.jpg);
-  width: 100svh;
+  width: 100%;
   height: 200px;
   border: groove 5px rgb(21, 21, 21);
   background-size: cover;
