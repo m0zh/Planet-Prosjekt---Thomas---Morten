@@ -1,7 +1,10 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 html {
@@ -85,6 +88,8 @@ section {
   justify-content: center;
   align-items: center;
   padding: 10px 150px;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
 }
 
 #section1 {
@@ -108,8 +113,13 @@ section {
 #section6 {
 }
 
-#.marsRover {
+#sec-settings,
+h1 {
+  font-size: xx-large;
+}
+.marsRover {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #section7 {
