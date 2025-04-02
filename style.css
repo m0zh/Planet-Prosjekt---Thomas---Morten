@@ -87,40 +87,40 @@ section {
   padding: 10px 150px;
 }
 
-.section1 {
+#section1 {
   background-image: url(./images/mars_2k.jpg);
 }
 
-.section2 {
+#section2 {
 }
 
-.section3 {
+#section3 {
   background-image: url(./images/Mars-landscape1.jpg);
 }
 
-.section4 {
+#section4 {
 }
 
-.section5 {
+#section5 {
   background-image: url(./images/Mars-rover-unsplash.jpg);
 }
 
-.section6 {
+#section6 {
 }
 
-.marsRover {
+#.marsRover {
   margin-top: 10px;
 }
 
-.section7 {
+#section7 {
   background-image: url(./images/Mars-planet.jpg);
 }
-.section8 {
+#section8 {
 }
-.section9 {
+#section9 {
   background-image: url(./images/Mars-rover.jpg);
 }
-.section10 {
+#section10 {
 }
 
 .bg-img {
