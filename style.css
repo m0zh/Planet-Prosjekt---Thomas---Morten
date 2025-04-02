@@ -13,8 +13,11 @@ body {
   min-height: 100vh;
 }
 
-.header-top h1,
 p {
+  color: white;
+}
+
+.header-top h1 {
   color: red;
 }
 
@@ -45,7 +48,7 @@ a:focus {
 }
 
 .header-top {
-  background-color: grey;
+  background-color: rgb(185, 185, 185);
   background-image: url(./images/mars_2k.jpg);
   width: 100svw;
   height: 200px;
@@ -71,14 +74,21 @@ a:focus {
 section {
   text-align: center;
   width: 100vw;
+  background-color: rgb(143, 0, 0);
 }
 
-.sec-height {
+.sec-settings {
   height: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 150px;
 }
 
 .section1 {
-  background-image: url(./images/Mars-rover.jpg);
+  background-image: url(./images/Mars-person.jpg);
 }
 
 .section2 {
@@ -117,5 +127,5 @@ section {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  height: 300px;
+  height: 700px;
 }
