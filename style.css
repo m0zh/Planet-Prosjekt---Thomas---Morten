@@ -39,10 +39,15 @@ a:focus {
   color: red;
 }
 
+header {
+  top: 0;
+  position: sticky;
+}
+
 .header-top {
   background-color: grey;
   background-image: url(./images/mars_2k.jpg);
-  width: 100%;
+  width: 100svw;
   height: 200px;
   border: groove 5px rgb(21, 21, 21);
   background-size: cover;
@@ -63,12 +68,68 @@ a:focus {
   color: white;
   height: 50px;
 }
-#section6 {
+#sections {
+  text-align: center;
+}
+
+.section1 {
   background-image: url(./images/Mars-rover.jpg);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-size: cover;
   width: 100%;
-  height: 800px;
+  height: 300px;
+}
+
+.section2 {
+  width: 100%;
+  height: 200px;
+}
+
+.section3 {
+  background-image: url(./images/mars_2k.jpg);
+  width: 100%;
+  height: 300px;
+}
+
+.section4 {
+  width: 100%;
+  height: 200px;
+}
+
+.section5 {
+  background-image: url(./images/Mars-rover.jpg);
+  width: 100%;
+  height: 300px;
+}
+
+.section6 {
+  width: 100%;
+  height: 200px;
+}
+
+.section7 {
+  background-image: url(./images/mars_2k.jpg);
+  width: 100%;
+  height: 300px;
+}
+
+.section8 {
+  width: 100%;
+  height: 200px;
+}
+
+.section9 {
+  background-image: url(./images/Mars-rover.jpg);
+  width: 100%;
+  height: 300px;
+}
+
+.section10 {
+  width: 100%;
+  height: 200px;
+}
+
+.bg-img {
+  background-position: left bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
