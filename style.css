@@ -114,7 +114,7 @@ section h1 {
 }
 
 #section5 {
-  background-image: url(./images/Mars-rover-unsplash.jpg);
+  background-image: url(./images/Mars-rover.jpg);
 }
 
 #section6 {
@@ -135,7 +135,7 @@ h1 {
 #section8 {
 }
 #section9 {
-  background-image: url(./images/Mars-rover.jpg);
+  background-image: url(./images/Mars-person.jpg);
 }
 .section10 {
 }
@@ -146,4 +146,19 @@ h1 {
   background-attachment: fixed;
   background-repeat: no-repeat;
   height: 700px;
+}
+
+#backToTop-btn {
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  padding: 15px 30px;
+}
+
+footer {
+  background-color: rgb(49, 49, 49);
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  text-align: center;
 }
