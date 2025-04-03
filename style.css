@@ -60,7 +60,6 @@ a:focus {
   width: 100svw;
   height: 130px;
   border-bottom: groove 5px black;
-
   background-size: cover;
   color: white;
   display: flex;
@@ -84,6 +83,7 @@ section {
   text-align: center;
   width: 100vw;
   background-color: rgb(103, 0, 0);
+  letter-spacing: 1.5px;
 }
 
 section h1 {
@@ -109,20 +109,15 @@ section h1 {
 }
 
 #section2 {
+  padding: 0 200px;
 }
 
 #section3 {
   background-image: url(./images/Mars-landscape1.jpg);
 }
 
-#section4 {
-}
-
 #section5 {
   background-image: url(./images/Mars-rover.jpg);
-}
-
-#section6 {
 }
 
 #sec-settings,
@@ -138,12 +133,9 @@ h1 {
 #section7 {
   background-image: url(./images/Mars-planet.jpg);
 }
-#section8 {
-}
+
 #section9 {
   background-image: url(./images/Mars-person.jpg);
-}
-.section10 {
 }
 
 .bg-img {
