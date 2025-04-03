@@ -40,7 +40,9 @@ header {
   letter-spacing: 0.6em;
 }
 
-a {
+a,
+li,
+ul {
   text-decoration: none;
   list-style-type: none;
   color: whitesmoke;
@@ -54,12 +56,10 @@ a:focus {
 
 .header-top {
   background-color: rgb(49, 49, 49);
-  background-image: url(./images/mars_2k.jpg);
+  background-image: url(./images/mars_2kv2.jpg);
   width: 100svw;
   height: 130px;
-  border-top: groove 10px rgb(33, 33, 33);
-  border-left: groove 10px rgb(33, 33, 33);
-  border-right: groove 10px rgb(33, 33, 33);
+  border-bottom: groove 5px black;
 
   background-size: cover;
   color: white;
@@ -105,7 +105,7 @@ section h1 {
 }
 
 #section1 {
-  background-image: url(./images/mars_2k.jpg);
+  background-image: url(./images/mars_2kv2.jpg);
 }
 
 #section2 {
@@ -159,6 +159,14 @@ h1 {
   height: 60px;
   font-size: 20px;
   padding: 15px 30px;
+  background-color: rgb(103, 0, 0);
+  color: rgb(255, 163, 163);
+  border-radius: 7px;
+  scale: 0.7;
+}
+
+#backToTop-btn:hover {
+  scale: 0.8;
 }
 
 footer {
