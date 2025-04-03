@@ -1,3 +1,4 @@
+/*nullstiller siden og legger til font settings på siden*/
 * {
   margin: 0;
   padding: 0;
@@ -7,11 +8,12 @@
   font-weight: 400;
   font-style: normal;
 }
-
+/*gjør bruker opplevelsen mer behagelig med scroll-effekt*/
 html {
   scroll-behavior: smooth;
 }
 
+/*Låser siden til maks høyde og vidde på skjerm*/
 body {
   min-width: 100vw;
   min-height: 100vh;
@@ -22,24 +24,24 @@ p {
   color: white;
 }
 
+/*Bestemmer farge på h1 i header*/
 .header-top h1 {
   color: red;
+  font-size: 48px;
 }
-
+/*låser bakgrunnsbildene slik at vi får et fantastisk fint design når vi scroller nedover*/
 header {
   top: 0;
   position: sticky;
 }
 
-.header-top h1 {
-  font-size: 48px;
-}
-
+/*Endrer font-size og letter-spacing på tekst i header*/
 .header-top p {
   font-size: 10px;
   letter-spacing: 0.6em;
 }
 
+/*Fjerner dekorasjoner på navbaren*/
 a,
 li,
 ul {
@@ -47,13 +49,14 @@ ul {
   list-style-type: none;
   color: whitesmoke;
 }
-
+/*Legger til effekt slik at bruker ser at det er interaktiv lenke*/
 a:hover,
 a:focus {
   text-decoration: underline;
   color: red;
 }
 
+/*Legger til bakgrunnsbilde, bakgrunnsfarge og styler header*/
 .header-top {
   background-color: rgb(49, 49, 49);
   background-image: url(./images/mars_2kv2.jpg);
@@ -69,6 +72,7 @@ a:focus {
   padding-left: 100px;
 }
 
+/*Styler nav seksjonene i navbaren*/
 .navbar {
   display: flex;
   flex-direction: row;
@@ -92,6 +96,7 @@ section h1 {
   font-weight: 900;
 }
 
+/*Styler tekst seksjonene*/
 .sec-settings {
   height: 300px;
   text-align: center;
@@ -107,7 +112,6 @@ section h1 {
 #section1 {
   background-image: url(./images/mars_2kv2.jpg);
 }
-
 #section2 {
   padding: 0 200px;
 }
@@ -138,6 +142,7 @@ h1 {
   background-image: url(./images/Mars-person.jpg);
 }
 
+/*Settings for bakgrunnsbildene*/
 .bg-img {
   background-position: left top;
   background-size: cover;
@@ -145,7 +150,7 @@ h1 {
   background-repeat: no-repeat;
   height: 700px;
 }
-
+/*styler knapp nederst på nettsiden slik at den er synlig og brukervennlig*/
 #backToTop-btn {
   width: 200px;
   height: 60px;
@@ -157,10 +162,12 @@ h1 {
   scale: 0.7;
 }
 
+/*pop-out effekt på knappen slik at bruker ser den kan trykkes*/
 #backToTop-btn:hover {
   scale: 0.8;
 }
 
+/*Styler footer design*/
 footer {
   background-color: rgb(49, 49, 49);
   display: flex;
